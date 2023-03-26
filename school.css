@@ -1,0 +1,74 @@
+
+
+
+body{
+    margin: 0;
+}
+
+fieldset{
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+.div-1{
+      /* text-align: center; */
+    margin: 0 auto;
+}
+.div-a{
+    text-align: center;
+    padding: 20px;
+    background-color: #f1dfdf;
+}
+.div-b{
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.blink{
+    animation: blinker 1.5s linear infinite;
+    color: red;
+    font-family: serif;
+}
+@keyframes blinker{
+    50%{
+       opacity: 0;
+    }
+}
+
+
+.div-b a{
+    float: left;
+    color: #ffffff;
+    display: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+}
+.div-b a:hover{
+    background-color: #fffcfc;
+    color: black;
+}
+.topcontact{
+       text-align: center;
+       color: rgb(255, 0, 183);
+}
+/* .bodycontact{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   text-shadow: center; 
+     text-align: center; 
+     table-layout: center; 
+     justify-content: center;
+} */
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}

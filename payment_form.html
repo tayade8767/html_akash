@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="school.css">
+    <style>
+                form{
+                  text-align: center;
+                }
+                fieldset{
+                  /* margin: 100px; */
+                  margin-left: 300px;
+                  margin-right: 300px;
+                  /* margin-top: 100px; */
+                }
+               
+    </style>
+</head>
+<body>
+   
+  <fieldset>
+
+
+  
+     <form action="apna_college.html">
+          <h1>Payment form</h1>
+          <h2>Contact Information</h2>
+            <div>Name: *<input type="text" name="akash" id="" requried></div>
+            <br>
+            <fieldset>
+                <legend>Gender</legend>
+          <div>
+              Male<input type="radio" name="gender" id="male">
+              Female<input type="radio" name="gender" id="female">
+              Other<input type="radio" name="gender" id="other"
+          </div>
+        </fieldset>
+        <p>Address: <textarea name="address" id="address" cols="30" rows="10"></textarea></p>
+          <p>Email:<input type="email" name="email" id="email"></p>
+          <p>Pincode:<input type="number" name="pincode" id="pincode"></p>
+          <h2>Payment Information</h2>
+          <p>
+            Card type:
+            <select name="card_type" id="card_type">
+                    <option value="">--Select a card type--</option>
+                    <option value="Visa">Visa</option>
+                    <option value="Rupay">Rupay</option>
+                    <option value="Cradit Card">Cradit card</option>
+                    <option value="ATM">ATM</option>
+          </select>
+          </p>
+          <p>
+            Card Number <input type="number" name="card_number" id="card_number">
+          </p>
+          <p>
+            Expiration Date:<input type="date" name="exp_date" id="exp_date">
+          </p>
+          <p>
+            CVV <input type="password" name="cvv" id="cvv">
+          </p>
+          <input type="submit" value="Pay now">
+          <input type="reset" value="Reset">
+        </form>
+
+      </fieldset>
+        
+    </html>

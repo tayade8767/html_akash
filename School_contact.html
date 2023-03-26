@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Staff Contacts</title>
+    <link rel="stylesheet" href="school.css">
+
+     <style>
+        /* body{
+            background-image: url(contactbg.jpg);
+            background-size: auto;
+            /* background-position: center; */
+            /* background-repeat: no-repeat; */
+            /* border-image-width: auto; */
+            /* margin: 0; */
+        /* } */ 
+
+      .contactdiv-1{
+        margin: 80px 450px 200px 450px;
+        background-color: #ECECEC;
+        border-radius: 20px;
+      }
+      .contactdiv-2{
+               text-align: center;    
+      }
+
+       .contactdiv-3{
+        margin-left: 50px;
+        padding: 3px;
+        
+       }
+
+       fieldset{
+       margin-left: 35px;
+       margin-right: 50px;
+       text-align: center;
+       }
+       legend{
+        text-align:justify;
+       }
+       #Button{
+        text-align: center;
+        background-color: rgb(166, 209, 216);
+        font-size: medium;
+        display: block;
+       padding: 13px 30px;
+        margin: auto;
+        color: rgb(0, 0, 0);
+      
+       }
+       #Button:hover{
+        color: red;
+        background-color: rgb(168, 150, 107);
+       }
+     </style>
+
+</head>
+<body>
+
+         <marquee  class="blink"><h3>Notice ! Call or Mail if it is Important</h3></marquee>
+
+
+
+
+               <!-- mail to the Falcty co-ordinator -->
+         <form action="mailto:akashtayade5668@gmail.com" method="post">
+
+            <!-- this id the main div of the contact form -->
+            <div class="contactdiv-1">
+
+                            <!-- this contactdiv-2 is made for the header of the contact form -->
+                <div class="contactdiv-2">
+                       <h1>Contact Form</h1>
+                       <h3>Please fill the form and contact us</h3>
+                </div>
+                <!-- this contactdiv-3 is use for the total body of the main contact form -->
+                <div class="contactdiv-3">
+                    <!-- input is use for the taking the input in the text feild -->
+                     <h4>*Your Name: <input type="name" name="name" id="name" required size="50" ></h4>
+                     <h4>*Enter Email: <input type="email" name="email" id="email" required size="50"></h4>
+                     <!-- it is use for the taking chosing the gender -->
+                     <fieldset>
+                        <legend>Gender</legend>
+                        Male<input type="radio" name="Gender" id="male" required>
+                        Female<input type="radio" name="Gender" id="Female" required>
+                        Other<input type="radio" name="Gender" id="Other" required>
+                     </fieldset>
+                     <!-- it is use for the chosing the complaint and the Enquiry and other information -->
+                     <h4 >Subject:
+                        <select name="Student-data" id="Student-data">
+                            <option value="--Select the Option--">--Select the Option--</option>
+                            <option value="Complaint">Complaint</option>
+                            <option value="Enquiry">Enquiry</option>
+                            <option value="Other">Other</option>
+                         </select>
+                     </h4>
+
+                     <h4>
+                        *Enter the Class:
+                        <input type="class" name="class" id="class" required size="50px">
+                     </h4>
+                     <!-- it is for the taking the message input from the user -->
+                     <h4>Message<textarea name="message" id="message" cols="70" rows="10"></textarea></h4>
+                     <input type="Submit" value="Submit" id="Button">
+                </div>
+          </div>
+         </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <!-- <div class="bodycontact">
+
+             <table border="5">
+                <thead>
+                    <th>Name</th>
+                    <th>E-Mail</th>
+                    <th>Phone_Number</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Akash Tayade</td>
+                        <td>akashtayade5668@gmail.com</td>
+                        <td>8767067328</td>
+                    </tr>
+                    <tr>
+                        <td>Tejas Kawarkhe</td>
+                        <td>tejas.kawarkhe555@gmail.com</td>
+                        <td>9309014869</td>
+                    </tr>
+                </tbody>
+             </table>
+
+         </div> -->
+</body>
+</html>
